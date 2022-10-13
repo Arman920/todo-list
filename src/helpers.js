@@ -1,5 +1,4 @@
 export const wordCorrectHandler = completedTodosCount => {
-    console.log(completedTodosCount, 99999)
     let word = '';
     if (completedTodosCount > 1 && completedTodosCount < 5) {
         word = 'задачи'
